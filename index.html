@@ -29,7 +29,8 @@
                             </span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"> Menu </span></a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"> Contact
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span
+                                class="fa fa-address-card fa-lg"> Contact
                             </span></a></li>
                 </ul>
             </div>
@@ -39,13 +40,16 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-8">
+                <div class="col-12 col-sm-6">
                     <h1>Le Chocolat</h1>
                     <p>We combine experience with creativity to create innovative tastes based on classic chocolate
                         recipes. Our creations will travel you in the chocolate world!</p>
                 </div>
-                <div class="col col-sm">
+                <div class="col col-sm-3">
                     <img src="images/images/logo.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-3 align-items-center justify-content-center">
+                    <button type="button" class="btn btn-warning btn-sm col-sm-offset-2" id="buttonForm">Reserve your baskets</button>
                 </div>
             </div>
         </div>
@@ -107,6 +111,83 @@
                             contributes his innovative ideas
                             in our products.</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-content align-items-center justify-content-center">
+        <div class="col-12 col-sm-8">
+            <div class="card border-default">
+                <h3 class="card-header bg-warning text-white">Reserve your baskets</h3>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-3">
+                                Number of baskets
+                            </label>
+                            <div class="col col-sm">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label l class="form-check-label" for="inlineRadio1">
+                                        1
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label l class="form-check-label" for="inlineRadio2">
+                                        2
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio3" value="option3">
+                                    <label l class="form-check-label" for="inlineRadio3">
+                                        3
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio4" value="option4">
+                                    <label l class="form-check-label" for="inlineRadio4">
+                                        4
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio5" value="option5">
+                                    <label l class="form-check-label" for="inlineRadio5">
+                                        5
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-3">
+                                Date and Time
+                            </label>
+                            <div class="input-group col-12 col-sm-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="date"><i class="fa fa-calendar"
+                                            aria-hidden="true"></i></span>
+                                </div>
+                                <input type="date" class="form-control" id="dateInput">
+                            </div>
+                                <div class="input-group col-12 col-sm-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="time"><i class="fa fa-clock-o"
+                                                aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="time" class="form-control" id="timeInput">
+                                </div>
+                            
+                        </div>
+                        <div class="form-group row">
+                            <button type="submit" class="btn btn-primary btn-sm col-sm-offset-2">Reserve</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
