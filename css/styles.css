@@ -65,3 +65,85 @@ tr:hover {
     bottom: 0px;
     z-index: +1;
 }
+
+.card-product .img-wrap {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+    text-align: center;
+}
+.card-product .img-wrap img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.card-product .info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+.card-product .bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.label-rating { margin-right:10px;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-product .price-old {
+    color: #999;
+}
+
+p.desc:hover {
+    font-size: 110%;
+    background-color: rgb(245, 194, 128);
+}
+
+h4.title {
+    color: #572f0f;
+}
+
+.prod_card {
+     background-color: lightgoldenrodyellow;
+ }
+
+
+ .MultiCarousel {
+     float: left;
+     overflow: hidden;
+     padding: 15px;
+     width: 100%;
+     position:relative;
+    }
+.MultiCarousel .MultiCarousel-inner {
+        transition: 1s ease all;
+        float: left;
+    }
+.MultiCarousel .MultiCarousel-inner .item {
+    float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+    text-align: center;
+    padding:10px;
+    margin:10px;
+    background: rgb(87, 57, 3);
+    color: whitesmoke;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+    position:absolute;
+    border-radius:50%;
+    top:calc(50% - 20px);
+}
+.MultiCarousel .leftLst {
+    left:0;
+}
+.MultiCarousel .rightLst {
+    right:0;
+}
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+    pointer-events: none;
+}
